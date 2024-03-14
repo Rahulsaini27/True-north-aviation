@@ -1,0 +1,162 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* body {
+    background-color: antiquewhite;
+} */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.parent {
+    width: 75%;
+    margin: auto;
+    height: 6809px;
+    /* border: 1px solid red; */
+}
+
+.top {
+    width: 100%;
+    height: 1400px;
+    border: 1px white solid;
+    background: url('../images/headerbg.jpg') fixed 50% no-repeat;
+    background-size: cover;
+}
+
+.top1 {
+    width: 100%;
+    height: 870px;
+    /* border: 1px yellow solid; */
+    display: flex;
+    gap: 25px;
+    justify-content: end;
+    margin-top: 80px;
+    padding-right: 10px;
+}
+
+.logo1 {
+    width: 120px;
+    height: 106px;
+}
+
+.logo2 {
+    width: 400px;
+    height: 153px;
+}
+
+.top2 {
+    width: 100%;
+    height: 448px;
+    border-top: #182d55 14px solid;
+    background: rgba(0, 0, 0, 0.5);
+}
+nav{
+    margin-top: 30px;
+}
+nav ul {
+    height: 35px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "times New Roman";
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+nav ul li {
+    color: #fff;
+    border-right: #fff 2px solid;
+    padding: 0px 35px;
+}
+nav ul li:last-child{
+    border-right:none ;    
+}
+.top3 {
+    background: url(../images/helicopters.jpg) no-repeat center center;
+    height: 240px;
+    width: 100%;
+    padding: 40px 0px;
+    border-top: #182d55 solid 30px;
+    border-bottom: #182d55 solid 30px;
+}
+
+.top4 {
+    width: 100%;
+    /* border: 1px solid greenyellow; */
+}
+#demo1 .heading{
+    
+    background: url('../images/frameimg1.jpg') fixed 50% no-repeat;
+}
+#demo2 .heading{
+    
+    background: url('../images/frameimg2.jpg') fixed 50% no-repeat;
+}
+#demo3 .heading{
+    
+    background: url('../images/frameimg3.jpg') fixed 50% no-repeat;
+}
+
+#demo4 .heading{
+    
+    background: url('../images/frameimg4.jpg') fixed 50% no-repeat;
+}
+
+
+#demo5 .heading{
+    
+    background: url('../images/frameimg5.jpg') fixed 50% no-repeat;
+}
+
+
+.heading {
+    width: 100%;
+    height: 321px;
+}
+
+.title {
+    width: 100%;
+    height: 321px;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1 {
+    /* width: 200px;
+    height: 100px; */
+    padding: 2px 20px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #FFF 8px solid;
+    font-family: "times New Roman";
+    font-size: 26px;
+    color: #FFF;
+    font-weight: bold;
+    margin-top: -23px;
+}
+
+.text {
+    width: 98%;
+    font-family: "times New Roman";
+    font-size: 24px;
+    color: #182D55;
+    text-align: center;
+    line-height: 55px;
+    margin: 100px auto;}
+
+.text img {
+    margin-top: 80px
+}
